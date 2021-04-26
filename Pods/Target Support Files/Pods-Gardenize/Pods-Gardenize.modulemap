@@ -1,0 +1,6 @@
+framework module Pods_Gardenize {
+  umbrella header "Pods-Gardenize-umbrella.h"
+
+  export *
+  module * { export * }
+}
