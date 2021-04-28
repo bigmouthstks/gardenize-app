@@ -3,8 +3,15 @@ default_platform(:ios)
 platform :ios do
   desc "Generates a changelog based on commits"
   lane :custom_lane do
-    changelog_from_git_commits(
-      between: ["f06fee4", "HEAD"]
-    )
+
+    File.open("../CHANGELOG.md", "w") { |f| f.write changelog_from_git_commits(
+      between: ["f06fee4", "HEAD"],
+      pretty: "- (%ae) %s",
+      date_format: "short",
+      merge_commit_filtering: "exclude_merges",
+    )}
+
+
+
   end
 end
