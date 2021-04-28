@@ -1,0 +1,5 @@
+# The bundle identifier of your app
+app_identifier("com.bigmouthstrks.Gardenize") 
+
+# Your Apple email address
+apple_id("bcaceres@trust.lat") 

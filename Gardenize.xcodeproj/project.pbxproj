@@ -48,7 +48,6 @@
 				30B02B28DD0F4EE70FD763CB /* Pods-Gardenize.debug.xcconfig */,
 				22313F8369E48E29D54E7732 /* Pods-Gardenize.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
