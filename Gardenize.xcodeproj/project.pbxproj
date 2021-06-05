@@ -14,7 +14,7 @@
 		9339962B2637051300106688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933996292637051300106688 /* Main.storyboard */; };
 		9339962D2637051500106688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9339962C2637051500106688 /* Assets.xcassets */; };
 		933996302637051500106688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9339962E2637051500106688 /* LaunchScreen.storyboard */; };
-		93ACCE05266BD0C2002450F1 /* Cocon-RegularTR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93ACCE04266BD0C2002450F1 /* Cocon-RegularTR.ttf */; };
+		93A1E16E266BED6F00A59F6A /* Cocon.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93A1E16D266BED6F00A59F6A /* Cocon.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		9339962C2637051500106688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9339962F2637051500106688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		933996312637051500106688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93ACCE04266BD0C2002450F1 /* Cocon-RegularTR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cocon-RegularTR.ttf"; sourceTree = "<group>"; };
+		93A1E16D266BED6F00A59F6A /* Cocon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cocon.otf; sourceTree = "<group>"; };
 		C54B5DF6420CCD17655934DC /* Pods_Gardenize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardenize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,7 +137,7 @@
 		93ACCE03266BD0AB002450F1 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				93ACCE04266BD0C2002450F1 /* Cocon-RegularTR.ttf */,
+				93A1E16D266BED6F00A59F6A /* Cocon.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			files = (
 				933996302637051500106688 /* LaunchScreen.storyboard in Resources */,
 				9339962D2637051500106688 /* Assets.xcassets in Resources */,
-				93ACCE05266BD0C2002450F1 /* Cocon-RegularTR.ttf in Resources */,
+				93A1E16E266BED6F00A59F6A /* Cocon.otf in Resources */,
 				9339962B2637051300106688 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

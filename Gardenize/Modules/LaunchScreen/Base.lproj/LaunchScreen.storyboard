@@ -20,20 +20,21 @@
                                 <rect key="frame" x="0.0" y="200" width="320" height="168"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="plant" translatesAutoresizingMaskIntoConstraints="NO" id="eB9-aq-jME">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="106.5"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfK-03-bBU">
-                                        <rect key="frame" x="89" y="135" width="142.5" height="33"/>
+                                        <rect key="frame" x="89" y="131.5" width="142.5" height="36.5"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Gardenize">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.32913365386007731" green="0.13625561598328695" blue="0.0027957805243586042" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.39461150672959278" green="0.16336230978796151" blue="0.0033519731339032772" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <font key="NSFont" size="30" name="Cocon-Regular"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
                                         <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
                                 </subviews>
                             </stackView>
