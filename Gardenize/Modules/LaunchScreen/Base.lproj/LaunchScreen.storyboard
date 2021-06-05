@@ -16,36 +16,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="2Fl-p0-fqM">
-                                <rect key="frame" x="0.0" y="200" width="320" height="168"/>
+                            <stackView opaque="NO" contentMode="center" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="2Fl-p0-fqM">
+                                <rect key="frame" x="15" y="60" width="290" height="448"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="plant" translatesAutoresizingMaskIntoConstraints="NO" id="eB9-aq-jME">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="106.5"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gardenize-logo" translatesAutoresizingMaskIntoConstraints="NO" id="kvB-Lq-VDg">
+                                        <rect key="frame" x="67.5" y="0.0" width="155" height="448"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfK-03-bBU">
-                                        <rect key="frame" x="89" y="131.5" width="142.5" height="36.5"/>
-                                        <attributedString key="attributedText">
-                                            <fragment content="Gardenize">
-                                                <attributes>
-                                                    <color key="NSColor" red="0.39461150672959278" green="0.16336230978796151" blue="0.0033519731339032772" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <font key="NSFont" size="30" name="Cocon-Regular"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
-                                        <nil key="highlightedColor"/>
-                                        <size key="shadowOffset" width="0.0" height="0.0"/>
-                                    </label>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Fl-p0-fqM" secondAttribute="trailing" id="0xU-DE-RCY"/>
-                            <constraint firstItem="2Fl-p0-fqM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="MJd-wf-ie0"/>
-                            <constraint firstItem="2Fl-p0-fqM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xou-IC-wg6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2Fl-p0-fqM" secondAttribute="bottom" constant="200" id="cah-a8-Ryu"/>
+                            <constraint firstItem="2Fl-p0-fqM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="0jF-yI-gxw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2Fl-p0-fqM" secondAttribute="bottom" constant="60" id="lto-54-AIR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Fl-p0-fqM" secondAttribute="trailing" constant="15" id="nqB-Fw-g4J"/>
+                            <constraint firstItem="2Fl-p0-fqM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="vlr-vF-NNw"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -55,7 +41,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="plant" width="512" height="512"/>
+        <image name="gardenize-logo" width="155" height="204"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
