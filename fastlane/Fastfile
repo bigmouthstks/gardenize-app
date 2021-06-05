@@ -2,11 +2,11 @@ default_platform(:ios)
 
 platform :ios do
   desc "Generates a changelog based on commits"
-  lane : auto_changelog do
+  lane :generate_changelog_file do
 
     changelog_content = "# Gardenize Changelog\n" + changelog_from_git_commits(
-      between: [, options[:current_commit]],
-      pretty: "- (%ae) %s",
+      between: ["f06fee49b1f2bc16edddf097b82d0e22a8a8fb6d", "HEAD"],
+      pretty: "- [%ad] %s",
       date_format: "short",
       merge_commit_filtering: "exclude_merges",
     )

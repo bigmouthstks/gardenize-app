@@ -16,9 +16,9 @@ or alternatively using `brew install fastlane`
 
 # Available Actions
 ## iOS
-### ios custom_lane
+### ios generate_changelog_file
 ```
-fastlane ios custom_lane
+fastlane ios generate_changelog_file
 ```
 Generates a changelog based on commits
 

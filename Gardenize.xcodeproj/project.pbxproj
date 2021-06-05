@@ -14,6 +14,7 @@
 		9339962B2637051300106688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933996292637051300106688 /* Main.storyboard */; };
 		9339962D2637051500106688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9339962C2637051500106688 /* Assets.xcassets */; };
 		933996302637051500106688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9339962E2637051500106688 /* LaunchScreen.storyboard */; };
+		93ACCE05266BD0C2002450F1 /* Cocon-RegularTR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93ACCE04266BD0C2002450F1 /* Cocon-RegularTR.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9339962C2637051500106688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9339962F2637051500106688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		933996312637051500106688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93ACCE04266BD0C2002450F1 /* Cocon-RegularTR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cocon-RegularTR.ttf"; sourceTree = "<group>"; };
 		C54B5DF6420CCD17655934DC /* Pods_Gardenize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardenize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -63,9 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				933996222637051200106688 /* Gardenize */,
-				933996212637051200106688 /* Products */,
-				26A53BF141D79A42119110BA /* Pods */,
 				600EF4A74B1F978C6DCE41E4 /* Frameworks */,
+				26A53BF141D79A42119110BA /* Pods */,
+				933996212637051200106688 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,13 +84,62 @@
 			children = (
 				933996232637051200106688 /* AppDelegate.swift */,
 				933996252637051200106688 /* SceneDelegate.swift */,
-				933996272637051200106688 /* ViewController.swift */,
-				933996292637051300106688 /* Main.storyboard */,
 				9339962C2637051500106688 /* Assets.xcassets */,
-				9339962E2637051500106688 /* LaunchScreen.storyboard */,
 				933996312637051500106688 /* Info.plist */,
+				937A8802266ACA3A001ED7D3 /* Network */,
+				937A8801266ACA1C001ED7D3 /* Model */,
+				93ACCE03266BD0AB002450F1 /* Fonts */,
+				937A8800266ACA03001ED7D3 /* Modules */,
 			);
 			path = Gardenize;
+			sourceTree = "<group>";
+		};
+		937A8800266ACA03001ED7D3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				93ACCE01266BCA45002450F1 /* LaunchScreen */,
+				93ACCDFF266BC8F2002450F1 /* LoginScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		937A8801266ACA1C001ED7D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		937A8802266ACA3A001ED7D3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		93ACCDFF266BC8F2002450F1 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				933996272637051200106688 /* ViewController.swift */,
+				933996292637051300106688 /* Main.storyboard */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		93ACCE01266BCA45002450F1 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9339962E2637051500106688 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		93ACCE03266BD0AB002450F1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				93ACCE04266BD0C2002450F1 /* Cocon-RegularTR.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +202,7 @@
 			files = (
 				933996302637051500106688 /* LaunchScreen.storyboard in Resources */,
 				9339962D2637051500106688 /* Assets.xcassets in Resources */,
+				93ACCE05266BD0C2002450F1 /* Cocon-RegularTR.ttf in Resources */,
 				9339962B2637051300106688 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

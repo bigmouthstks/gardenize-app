@@ -1,8 +1,10 @@
 # Gardenize Changelog
-- (bcaceres@trust.lat) changelog_from_commits workingC
-- (bcaceres@trust.lat) Fastline executed
-- (bcaceres@trust.lat) Pod install
-- (bcaceres@trust.lat) Package.swift file deleted
-- (bcaceres@trust.lat) Fastlane included in the project
-- (bcaceres@trust.lat) First commit
-- (82963437+bigmouthstks@users.noreply.github.com) Create CHANGELOG.md
+- [2021-04-28] SDKFKS
+- [2021-04-28] ASD
+- [2021-04-28] changelog_from_commits workingC
+- [2021-04-28] Fastline executed
+- [2021-04-28] Pod install
+- [2021-04-28] Package.swift file deleted
+- [2021-04-28] Fastlane included in the project
+- [2021-04-26] First commit
+- [2021-04-26] Create CHANGELOG.md
