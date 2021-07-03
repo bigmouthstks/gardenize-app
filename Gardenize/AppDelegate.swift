@@ -7,19 +7,20 @@
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        window = UIWindow(frame: UIScreen.main.bounds)
+               let storyboard = UIStoryboard(name: "Login", bundle: nil)
+               let homeVC = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+               let navigationController = UINavigationController()
+               
+               window?.rootViewController = navigationController
+               navigationController.pushViewController(homeVC, animated: true)
+               window?.makeKeyAndVisible()
+        
         return true
     }
-}
-
-extension AppDelegate {
-    // MARK: UISceneSession Lifecycle
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {}
 }

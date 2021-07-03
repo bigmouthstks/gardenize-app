@@ -14,6 +14,8 @@
 		9339962B2637051300106688 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933996292637051300106688 /* Login.storyboard */; };
 		9339962D2637051500106688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9339962C2637051500106688 /* Assets.xcassets */; };
 		933996302637051500106688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9339962E2637051500106688 /* LaunchScreen.storyboard */; };
+		93A16CE8266C77D100880EA8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A16CE7266C77D100880EA8 /* SignUpViewController.swift */; };
+		93A16CEB266C7FF100880EA8 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A16CEA266C7FF100880EA8 /* SignUp.storyboard */; };
 		93A1E16E266BED6F00A59F6A /* Cocon.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93A1E16D266BED6F00A59F6A /* Cocon.otf */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		9339962C2637051500106688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9339962F2637051500106688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		933996312637051500106688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A16CE7266C77D100880EA8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		93A16CEA266C7FF100880EA8 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		93A1E16D266BED6F00A59F6A /* Cocon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cocon.otf; sourceTree = "<group>"; };
 		C54B5DF6420CCD17655934DC /* Pods_Gardenize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardenize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -97,6 +101,7 @@
 		937A8800266ACA03001ED7D3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				93A16CE6266C77BC00880EA8 /* SignUp */,
 				93ACCE01266BCA45002450F1 /* LaunchScreen */,
 				93ACCDFF266BC8F2002450F1 /* Login */,
 			);
@@ -115,6 +120,15 @@
 			children = (
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		93A16CE6266C77BC00880EA8 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				93A16CE7266C77D100880EA8 /* SignUpViewController.swift */,
+				93A16CEA266C7FF100880EA8 /* SignUp.storyboard */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		93ACCDFF266BC8F2002450F1 /* Login */ = {
@@ -204,6 +218,7 @@
 				9339962D2637051500106688 /* Assets.xcassets in Resources */,
 				93A1E16E266BED6F00A59F6A /* Cocon.otf in Resources */,
 				9339962B2637051300106688 /* Login.storyboard in Resources */,
+				93A16CEB266C7FF100880EA8 /* SignUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +256,7 @@
 			files = (
 				933996282637051200106688 /* LoginViewController.swift in Sources */,
 				933996242637051200106688 /* AppDelegate.swift in Sources */,
+				93A16CE8266C77D100880EA8 /* SignUpViewController.swift in Sources */,
 				933996262637051200106688 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
